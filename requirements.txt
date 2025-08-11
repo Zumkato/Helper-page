@@ -4,3 +4,5 @@ markdown2
 weasyprint
 openai
 reflex
+sqlmodel
+bleach
