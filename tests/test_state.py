@@ -41,4 +41,3 @@ def test_project_state_crud():
     text = Path(md_path).read_text()
     assert "Initial reconnaissance" in text
     assert "bold" in text
-
