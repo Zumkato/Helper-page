@@ -1,13 +1,14 @@
 import reflex as rx
-from rxconfig import config
+
 
 class State(rx.State):
     target: str = ""
     suggestion: str = ""
 
     def submit_target(self):
-        # call backend to save target & get suggestions
+        # Placeholder for backend call
         pass
+
 
 def index():
     return rx.vstack(
@@ -16,6 +17,6 @@ def index():
         rx.text(State.suggestion),
     )
 
+
 app = rx.App(state=State)
 app.add_page(index)
-

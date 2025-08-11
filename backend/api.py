@@ -17,4 +17,3 @@ def summarize(text: str = Body(..., embed=True)):
 def generate_report():
     findings = storage.fetch_findings()
     return {"report": llm.generate_report(findings)}
-≈

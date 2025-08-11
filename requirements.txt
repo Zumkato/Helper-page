@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+markdown2
+weasyprint
+openai
+reflex
